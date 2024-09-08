@@ -87,8 +87,18 @@ const Main = () => {
             </div>
           </div>
           <p className="bottom-info">
-            Gemini may display inaccurate info, including about people, so
-            double-check its responses. Your privacy & Gemini Apps
+          {/* <div>Responses may vary in accuracy. Please review answers carefully. This Gemini clone is developed by <span><a href="https://github.com/anujgaurave"></a>Anuj Gaurave.</span></div> */}
+
+          Responses may vary in accuracy. Please review answers carefully. This Gemini clone is developed by{" "}
+        <a
+          href="https://github.com/anujgaurave"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline"
+        >
+          Anuj Gaurave
+        </a>{" "}
+        {" "}
           </p>
         </div>
       </div>
